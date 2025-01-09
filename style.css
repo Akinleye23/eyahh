@@ -1,0 +1,568 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 85%;
+  margin: auto;
+  margin-top: 2rem;
+}
+
+.headerHero {
+  background: linear-gradient(216.04deg, #27c0ef 13.84%, #00a8db 83.53%);
+}
+
+.logo img {
+  width: 100%;
+}
+nav {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+  gap: 2rem;
+}
+
+.navBar li a {
+  font-family: DM Sans;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18.23px;
+  letter-spacing: 0.30000001192092896px;
+  text-align: center;
+  color: #fff;
+  text-decoration: none;
+}
+
+select {
+  background: none;
+  border: none;
+  color: #fff;
+}
+nav button {
+  background: linear-gradient(278.21deg, #005490 1.66%, #328bcb 96.78%);
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1.5rem;
+  cursor: pointer;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 7rem;
+}
+.textSide {
+  margin-left: 6rem;
+}
+
+.textSide h2 {
+  font-family: DM Sans;
+  font-size: 64px;
+  font-weight: 700;
+  color: #fff; 
+}
+
+
+.textSide p{
+        font-family: DM Sans;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 25px;
+        text-align: left;
+        color: #fff;
+        width: 60%;
+}
+
+
+.curve img {
+  width: 20%;
+}
+
+.imageSide img {
+width: 100%;
+}
+
+.demo{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+
+}
+
+.demo button{
+ font-family: DM Sans;
+font-size: 16px;
+font-weight: 500;
+line-height: 20.83px;
+text-align: center;
+color: rgba(0, 168, 219, 1);
+background: #fff;
+border: none;
+cursor: pointer;
+width: 25%;
+padding: 1rem 1.5rem;
+border-radius: 4px;
+}
+
+.demo button:hover{
+    color: #fff;
+    background: linear-gradient(278.21deg, #005490 1.66%, #328bcb 96.78%);
+    
+}
+
+nav button:hover{
+    color: rgba(0, 168, 219, 1);
+    background:  #fff;
+}
+
+.sponsors{
+width: 80%;
+margin: auto;
+display: flex;
+gap: 5rem;
+align-items: center;
+margin-top: 4rem;
+margin-bottom: 4rem;
+}
+
+
+.sponsors img{
+  width: 100%;
+
+}
+
+.post{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+
+}
+
+.postImage img{
+width: 100%;
+}
+
+.postImage{
+  width: 40%;
+}
+
+.postText{
+  width: 45%;
+}
+
+.postText h3{
+  font-family: DM Sans;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 52px;
+  letter-spacing: 0.30000001192092896px;
+  color: rgba(3, 77, 130, 1);
+  width: 85%;
+  }
+
+.postText p{
+  font-family: DM Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 32px;
+letter-spacing: 0.30000001192092896px;
+color:rgba(144, 163, 180, 1);
+}
+
+.postText a{
+  font-family: DM Sans;
+font-size: 16px;
+font-weight: 700;
+line-height: 20.83px;
+color: rgba(4, 170, 221, 1);
+}
+
+.arrow{
+  position: relative;
+  z-index: -2;
+}
+
+.iphone{
+  position: absolute;
+  /* width: 40%; */
+}
+
+
+.schedule{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 85%;
+  margin: auto;
+  margin-top:8rem;
+}
+
+.scheduleText{
+  width: 50%;
+}
+
+.scheduleImage{
+ width: 60%;
+}
+.scheduleImage img{
+  width:100% ;
+}
+.scheduleText p{
+  font-family: DM Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 32px;
+letter-spacing: 0.30000001192092896px;
+color: rgba(144, 163, 180, 1);
+
+}
+
+.scheduleText h3{
+  font-family: DM Sans;
+font-size: 36px;
+font-weight: 700;
+line-height: 52px;
+letter-spacing: 0.30000001192092896px;
+color:  rgba(3, 77, 130, 1);
+width: 80%;
+}
+
+.scheduleText a{
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20.83px;
+color: rgba(4, 170, 221, 1);
+}
+
+.scheduleText ul{
+  font-family: DM Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 20.83px;
+letter-spacing: 0.30000001192092896px;
+color: rgba(144, 163, 180, 1);
+display: list-item;
+}
+
+.scheduleText ul li{
+  padding: 0.5rem;
+}
+
+.hashtag{
+  background: rgba(239, 251, 255, 1);
+  padding: 4rem 0rem;
+  margin-top: 5rem;
+}
+
+.topHashtag{
+  text-align: center;
+}
+
+.topHashtag h2{
+  font-family: DM Sans;
+font-size: 36px;
+font-weight: 700;
+line-height: 52px;
+color: rgba(3, 77, 130, 1);
+}
+.topHashtag p{
+  font-family: DM Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 32px;
+color: rgba(142, 169, 193, 1);
+}
+
+.cardWrap{
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+}
+
+.card{
+  background: #fff;
+  padding: 1rem 1rem 3rem 1rem;
+  border-radius: 8px;
+  height: 300px;
+}
+
+.card h5{
+  font-family: DM Sans;
+font-size: 20px;
+font-weight: 700;
+line-height: 34px;
+color: rgba(3, 77, 130, 1);
+padding: 1rem 0rem;
+}
+
+.card p{
+  font-family: DM Sans;
+font-size: 15px;
+font-weight: 400;
+line-height: 20px;
+color: rgba(142, 169, 193, 1);
+}
+
+.card:hover{
+
+  background:  rgba(239, 251, 255, 1);
+}
+
+.growth{
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  width: 85%;
+  margin: auto;
+  justify-content: space-between;
+}
+
+
+.growthLeft h3{
+  font-family: DM Sans;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 52px;
+  color: rgba(3, 77, 130, 1);
+}
+
+.growthLeft p{
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  color: rgba(144, 163, 180, 1);
+}
+
+.growthText p{
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  color: rgba(144, 163, 180, 1);
+  margin-left: 3rem;
+  margin-bottom: 1.5rem;
+  font-style: italic;
+}
+
+.hart{
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  margin-left: 3rem;
+  
+}
+
+.hartName h5{
+  font-family: DM Sans;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 34px;
+  color: rgba(3, 77, 130, 1);
+}
+
+.hartName p{
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  color: rgba(144, 163, 180, 1);
+  margin: auto;
+}
+
+.brand{
+  background-image: url(/IMAGES/Mask.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: auto;
+  width: 95%;
+  margin-bottom: 5rem;
+  padding: 5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.brandLeft{
+  width: 40%;
+  padding: 5rem 0 0 5rem;
+}
+
+.brandText h2{
+  font-family: DM Sans;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 50px;
+  color: rgba(255, 255, 255, 1);
+  margin: auto;
+  
+}
+
+.brandText p{
+  font-family: DM Sans;
+font-size: 14px;
+font-weight: 500;
+line-height: 32px;
+color: rgba(255, 255, 255, 1);
+}
+
+.customers{
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+footer{
+  background: rgba(8, 19, 21, 1);
+  width: 100%;
+  color: #fff;
+  padding: 3rem 0;
+}
+.footLogo img{
+  width: 30%;
+}
+
+.footWrap{
+  display: flex;
+ width: 85%;
+ margin:auto;
+
+}
+.footRight{
+  display: flex;
+  gap: 4rem;
+  width: 60%;
+}
+.footRight ul{
+  display: block;
+  
+}
+
+.footLeft{
+  width: 30%;
+}
+
+li{
+list-style-type: none;
+font-family: DM Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 20.83px;
+color: rgba(211, 214, 216, 1);
+margin-bottom: 1rem;
+}
+
+.footRight h4{
+  font-family: DM Sans;
+font-size: 18px;
+font-weight: 700;
+line-height: 23.44px;
+color: rgba(255, 255, 255, 1);
+margin-bottom: 1.5rem;
+}
+
+.footLeft p{
+  font-family: DM Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 20px;
+color: rgba(211, 214, 216, 1);
+padding: 1rem 0;
+width: 68%;
+}
+
+.copywright{
+  text-align: center;
+  margin-top: 4rem;
+}
+
+.copywright p{
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20.83px;
+color: rgba(255, 255, 255, 1);
+margin-top: 1rem;
+}
+
+
+@media(max-width: 1024px){
+  .textSide h2 {
+    font-size: 44px;
+    width: 100%;
+}
+
+.textSide p{
+  width: 90%;
+  padding: 1rem 0;
+}
+
+.curve img {
+width: 25%;
+}
+
+.demo button{
+ font-size: 16px;
+ width: 55%;
+ }
+
+.demo{
+  margin-bottom: 3rem;
+}
+
+.textSide{
+  width: 50%;
+}
+
+.imageSide{
+ width: 50%;
+}
+
+.iphone{
+  width: 35%;
+}
+
+
+.postText{
+  width: 50%;
+}
+
+.postText h3{
+  width: 100%;
+  }
+
+  .cardWrap{
+    gap: 1rem;
+    height: 70vh;
+  }
+  
+  .card{
+    width: 100%;
+    height: 320px;
+  }
+  .growthLeft h3{
+    font-size: 26px;
+    width: 90%;
+  }
+
+  .growthLeft p{
+    font-size: 16px;
+    width: 90%;
+  }
+}
